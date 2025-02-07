@@ -1,6 +1,7 @@
 ---
+layout: post
 title: On démarre notre voyage avec Ansible
-date: 2024-06-24 02:46:26
+date: 2024-06-24
 categories: [ansible]
 tags: [ansible]     # TAG names should always be lowercase
 ---
