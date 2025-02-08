@@ -4,6 +4,7 @@ title: Guide VPN Freebox OpenVPN et WireGuard
 date: 2025-02-04
 categories: [vpn]
 tags: [openvpn, wireguard]     # TAG names should always be lowercase
+published: true
 ---
 
 # 📌 Guide : Installer un VPN sur une Freebox et y accéder à distance  

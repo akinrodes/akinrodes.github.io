@@ -4,6 +4,7 @@ title: On démarre notre voyage avec Ansible
 date: 2024-06-24
 categories: [ansible]
 tags: [ansible]     # TAG names should always be lowercase
+published: false
 ---
 
 <div  align="center">
