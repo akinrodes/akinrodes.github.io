@@ -1,4 +1,7 @@
 # The Site Configuration
+#checklist
+include:
+  - assets
 
 # Import the theme
 theme: jekyll-theme-chirpy

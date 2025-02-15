@@ -56,13 +56,23 @@ If an attacker got access to the repo, they could use a tool such as GittyLeaks,
 
 3. Dependency Management
 
-**Bold Text**
-
-_Italic Text_
-
-[Link](https://www.example.com)
-
-- Bullet Point 1
-- Bullet Point 2
 
 
+4. 
+**Phase de déploiement** 
+- Secret Management
+-- Utiliser des variables d'environnement
+--- Tools : HashiCorp Vault, AWS Secrets Manager, Azure Key Vault, Google Cloud Secrets Manager
+
+5.
+Cette tâche explorera les stratégies clés pour créer un environnement de développement sécurisé, en tenant compte des leçons tirées du cas d'utilisation de SolarWinds.
+
+Un pipeline CI / CD typique
+
+Alors, à quoi ressemble un pipeline typique compatible CI / CD ? Le diagramme de réseau de cette salle aide un peu à expliquer cela. Examinons les différents composants que l'on peut trouver dans ce pipeline :
+
+- Postes de travail pour développeurs  – Là où la magie du codage se produit, les développeurs élaborent et construisent du code. Dans ce réseau, cela est simulé via votre AttackBox.
+- Solution de stockage du code source  - Il s'agit d'un espace réservé central pour stocker et suivre différentes versions de code. Il s'agit du serveur Gitlab présent sur notre réseau.
+- Orchestrateur de build  : coordonne et gère l'automatisation des environnements de build et de déploiement. Gitlab et Jenkins sont tous deux utilisés comme serveurs de build dans ce réseau.
+- Agents de build  – Ces machines construisent, testent et empaquetent le code. Nous utilisons les exécuteurs GitLab et les agents Jenkins pour nos agents de build.
+- Environnements  - Comme mentionné brièvement ci-dessus, il existe généralement des environnements de développement, de test (staging) et de production (live code). Le code est construit et validé au fil des étapes. Dans notre réseau, nous avons à la fois un environnement DEV et PROD.

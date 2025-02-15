@@ -167,6 +167,295 @@ published: true
   </div>
 </div>
 
+### Sécurité des API
+<div class="security-section">
+  <div class="security-item">
+    <input type="checkbox" class="security-check" data-weight="3" id="api-security">
+    <label for="api-security">Sécurisation des API (3)</label>
+    <div class="details">
+      <p><strong>Description</strong>: Mettre en place une sécurité complète pour les API.</p>
+      <p><strong>Outils recommandés</strong>:</p>
+      <ul>
+        <li>API Security Scanner (Opensource)</li>
+        <li>42Crunch (Commercial)</li>
+        <li>Salt Security (Commercial)</li>
+      </ul>
+      <p><strong>Impact</strong>: Protection contre les attaques API.</p>
+    </div>
+  </div>
+
+  <div class="security-item">
+    <input type="checkbox" class="security-check" data-weight="3" id="api-gateway">
+    <label for="api-gateway">API Gateway sécurisé (3)</label>
+    <div class="details">
+      <p><strong>Description</strong>: Implémenter un API Gateway avec des contrôles de sécurité.</p>
+      <p><strong>Outils recommandés</strong>:</p>
+      <ul>
+        <li>Kong Gateway (Opensource)</li>
+        <li>AWS API Gateway (Commercial)</li>
+        <li>Azure API Management (Commercial)</li>
+      </ul>
+      <p><strong>Impact</strong>: Contrôle centralisé de la sécurité API.</p>
+    </div>
+  </div>
+
+  <div class="security-item">
+    <input type="checkbox" class="security-check" data-weight="2" id="api-documentation">
+    <label for="api-documentation">Documentation API sécurisée (2)</label>
+    <div class="details">
+      <p><strong>Description</strong>: Documenter les aspects de sécurité des API.</p>
+      <p><strong>Outils recommandés</strong>:</p>
+      <ul>
+        <li>Swagger/OpenAPI (Opensource)</li>
+        <li>Postman (Freemium)</li>
+        <li>ReadMe (Commercial)</li>
+      </ul>
+      <p><strong>Impact</strong>: Meilleure compréhension et utilisation sécurisée des API.</p>
+    </div>
+  </div>
+</div>
+
+### Sécurité des Microservices
+<div class="security-section">
+  <div class="security-item">
+    <input type="checkbox" class="security-check" data-weight="3" id="service-mesh">
+    <label for="service-mesh">Service Mesh Security (3)</label>
+    <div class="details">
+      <p><strong>Description</strong>: Sécuriser la communication entre les microservices.</p>
+      <p><strong>Outils recommandés</strong>:</p>
+      <ul>
+        <li>Istio (Opensource)</li>
+        <li>Linkerd (Opensource)</li>
+        <li>AWS App Mesh (Commercial)</li>
+      </ul>
+      <p><strong>Impact</strong>: Communication sécurisée entre services.</p>
+    </div>
+  </div>
+
+  <div class="security-item">
+    <input type="checkbox" class="security-check" data-weight="3" id="service-isolation">
+    <label for="service-isolation">Isolation des Services (3)</label>
+    <div class="details">
+      <p><strong>Description</strong>: Implémenter une isolation forte entre les services.</p>
+      <p><strong>Outils recommandés</strong>:</p>
+      <ul>
+        <li>Network Policies Kubernetes (Opensource)</li>
+        <li>Calico (Opensource)</li>
+        <li>Cilium (Opensource)</li>
+      </ul>
+      <p><strong>Impact</strong>: Limitation de la propagation des attaques.</p>
+    </div>
+  </div>
+
+  <div class="security-item">
+    <input type="checkbox" class="security-check" data-weight="2" id="service-authentication">
+    <label for="service-authentication">Authentication Inter-Services (2)</label>
+    <div class="details">
+      <p><strong>Description</strong>: Mettre en place une authentification forte entre services.</p>
+      <p><strong>Outils recommandés</strong>:</p>
+      <ul>
+        <li>mTLS (Protocole)</li>
+        <li>Spiffe/Spire (Opensource)</li>
+        <li>HashiCorp Vault (Opensource/Commercial)</li>
+      </ul>
+      <p><strong>Impact</strong>: Prévention des accès non autorisés entre services.</p>
+    </div>
+  </div>
+</div>
+
+### Conformité et Gouvernance
+<div class="security-section">
+  <div class="security-item">
+    <input type="checkbox" class="security-check" data-weight="3" id="compliance-frameworks">
+    <label for="compliance-frameworks">Frameworks de Conformité (3)</label>
+    <div class="details">
+      <p><strong>Description</strong>: Mise en conformité avec les standards réglementaires.</p>
+      <p><strong>Frameworks recommandés</strong>:</p>
+      <ul>
+        <li>GDPR/RGPD</li>
+        <li>PCI DSS</li>
+        <li>ISO 27001</li>
+        <li>SOC 2</li>
+      </ul>
+      <p><strong>Impact</strong>: Conformité réglementaire et légale.</p>
+    </div>
+  </div>
+
+  <div class="security-item">
+    <input type="checkbox" class="security-check" data-weight="3" id="security-policies">
+    <label for="security-policies">Politiques de Sécurité (3)</label>
+    <div class="details">
+      <p><strong>Description</strong>: Définir et maintenir des politiques de sécurité.</p>
+      <p><strong>Outils recommandés</strong>:</p>
+      <ul>
+        <li>Confluence (Commercial)</li>
+        <li>GitBook (Freemium)</li>
+        <li>SharePoint (Commercial)</li>
+      </ul>
+      <p><strong>Impact</strong>: Standardisation des pratiques de sécurité.</p>
+    </div>
+  </div>
+
+  <div class="security-item">
+    <input type="checkbox" class="security-check" data-weight="2" id="security-audits">
+    <label for="security-audits">Audits de Sécurité (2)</label>
+    <div class="details">
+      <p><strong>Description</strong>: Réaliser des audits réguliers de sécurité.</p>
+      <p><strong>Outils recommandés</strong>:</p>
+      <ul>
+        <li>Qualys (Commercial)</li>
+        <li>Rapid7 InsightVM (Commercial)</li>
+        <li>OpenVAS (Opensource)</li>
+      </ul>
+      <p><strong>Impact</strong>: Validation continue de la sécurité.</p>
+    </div>
+  </div>
+</div>
+
+### Gestion des Identités
+<div class="security-section">
+  <div class="security-item">
+    <input type="checkbox" class="security-check" data-weight="3" id="iam-management">
+    <label for="iam-management">Gestion des Accès Privilégiés (3)</label>
+    <div class="details">
+      <p><strong>Description</strong>: Gérer les accès privilégiés de manière sécurisée.</p>
+      <p><strong>Outils recommandés</strong>:</p>
+      <ul>
+        <li>CyberArk (Commercial)</li>
+        <li>HashiCorp Vault (Opensource/Commercial)</li>
+        <li>BeyondTrust (Commercial)</li>
+      </ul>
+      <p><strong>Impact</strong>: Contrôle des accès privilégiés.</p>
+    </div>
+  </div>
+
+  <div class="security-item">
+    <input type="checkbox" class="security-check" data-weight="3" id="sso-implementation">
+    <label for="sso-implementation">Single Sign-On (SSO) (3)</label>
+    <div class="details">
+      <p><strong>Description</strong>: Implémenter une solution SSO sécurisée.</p>
+      <p><strong>Outils recommandés</strong>:</p>
+      <ul>
+        <li>Keycloak (Opensource)</li>
+        <li>Okta (Commercial)</li>
+        <li>Auth0 (Commercial)</li>
+      </ul>
+      <p><strong>Impact</strong>: Authentification centralisée et sécurisée.</p>
+    </div>
+  </div>
+
+  <div class="security-item">
+    <input type="checkbox" class="security-check" data-weight="3" id="zero-trust">
+    <label for="zero-trust">Zero Trust Architecture (3)</label>
+    <div class="details">
+      <p><strong>Description</strong>: Mettre en place une architecture Zero Trust.</p>
+      <p><strong>Outils recommandés</strong>:</p>
+      <ul>
+        <li>Zscaler (Commercial)</li>
+        <li>Cloudflare Zero Trust (Commercial)</li>
+        <li>Google BeyondCorp (Commercial)</li>
+      </ul>
+      <p><strong>Impact</strong>: Sécurité renforcée basée sur la confiance zéro.</p>
+    </div>
+  </div>
+</div>
+
+### Observabilité
+<div class="security-section">
+  <div class="security-item">
+    <input type="checkbox" class="security-check" data-weight="3" id="centralized-logging">
+    <label for="centralized-logging">Logging Centralisé (3)</label>
+    <div class="details">
+      <p><strong>Description</strong>: Mettre en place un système de logging centralisé.</p>
+      <p><strong>Outils recommandés</strong>:</p>
+      <ul>
+        <li>ELK Stack (Opensource)</li>
+        <li>Graylog (Opensource)</li>
+        <li>Splunk (Commercial)</li>
+      </ul>
+      <p><strong>Impact</strong>: Visibilité complète sur les événements de sécurité.</p>
+    </div>
+  </div>
+
+  <div class="security-item">
+    <input type="checkbox" class="security-check" data-weight="3" id="security-monitoring">
+    <label for="security-monitoring">Monitoring de Sécurité (3)</label>
+    <div class="details">
+      <p><strong>Description</strong>: Surveiller en temps réel les événements de sécurité.</p>
+      <p><strong>Outils recommandés</strong>:</p>
+      <ul>
+        <li>Prometheus + Grafana (Opensource)</li>
+        <li>Datadog Security (Commercial)</li>
+        <li>New Relic (Commercial)</li>
+      </ul>
+      <p><strong>Impact</strong>: Détection rapide des incidents de sécurité.</p>
+    </div>
+  </div>
+
+  <div class="security-item">
+    <input type="checkbox" class="security-check" data-weight="2" id="security-alerting">
+    <label for="security-alerting">Alerting Avancé (2)</label>
+    <div class="details">
+      <p><strong>Description</strong>: Configurer des alertes intelligentes pour la sécurité.</p>
+      <p><strong>Outils recommandés</strong>:</p>
+      <ul>
+        <li>PagerDuty (Commercial)</li>
+        <li>OpsGenie (Commercial)</li>
+        <li>AlertManager (Opensource)</li>
+      </ul>
+      <p><strong>Impact</strong>: Réponse rapide aux incidents de sécurité.</p>
+    </div>
+  </div>
+</div>
+
+### Sécurité des Données
+<div class="security-section">
+  <div class="security-item">
+    <input type="checkbox" class="security-check" data-weight="3" id="data-encryption">
+    <label for="data-encryption">Chiffrement des Données (3)</label>
+    <div class="details">
+      <p><strong>Description</strong>: Mettre en place le chiffrement des données au repos et en transit.</p>
+      <p><strong>Outils recommandés</strong>:</p>
+      <ul>
+        <li>HashiCorp Vault (Opensource/Commercial)</li>
+        <li>AWS KMS (Commercial)</li>
+        <li>Azure Key Vault (Commercial)</li>
+      </ul>
+      <p><strong>Impact</strong>: Protection des données sensibles.</p>
+    </div>
+  </div>
+
+  <div class="security-item">
+    <input type="checkbox" class="security-check" data-weight="3" id="data-classification">
+    <label for="data-classification">Classification des Données (3)</label>
+    <div class="details">
+      <p><strong>Description</strong>: Classifier et étiqueter les données selon leur sensibilité.</p>
+      <p><strong>Outils recommandés</strong>:</p>
+      <ul>
+        <li>Microsoft Information Protection (Commercial)</li>
+        <li>AWS Macie (Commercial)</li>
+        <li>Google Cloud DLP (Commercial)</li>
+      </ul>
+      <p><strong>Impact</strong>: Protection adaptée selon la sensibilité des données.</p>
+    </div>
+  </div>
+
+  <div class="security-item">
+    <input type="checkbox" class="security-check" data-weight="2" id="data-lifecycle">
+    <label for="data-lifecycle">Gestion du Cycle de Vie des Données (2)</label>
+    <div class="details">
+      <p><strong>Description</strong>: Gérer le cycle de vie complet des données.</p>
+      <p><strong>Outils recommandés</strong>:</p>
+      <ul>
+        <li>AWS S3 Lifecycle (Commercial)</li>
+        <li>Azure Storage Lifecycle (Commercial)</li>
+        <li>NetApp (Commercial)</li>
+      </ul>
+      <p><strong>Impact</strong>: Gestion sécurisée des données tout au long de leur cycle de vie.</p>
+    </div>
+  </div>
+</div>
+
 ## 5️⃣ **Phase de Déploiement**
 
 ### Sécurité du Pipeline
@@ -402,7 +691,7 @@ function initializeScoring() {
         { name: "Planification", maxScore: 30 },
         { name: "Développement", maxScore: 45 },
         { name: "Build", maxScore: 30 },
-        { name: "Test", maxScore: 45 },
+        { name: "Test", maxScore: 60 },
         { name: "Déploiement", maxScore: 35 },
         { name: "Exploitation", maxScore: 45 },
         { name: "Réponse", maxScore: 35 },
