@@ -183,9 +183,9 @@ Cette checklist est conçue pour évaluer la maturité DevSecOps de votre projet
     <div id="security-report-container"></div>
 </div>
 
-> 📚 Pour une analyse approfondie des risques et des scénarios concrets, consultez notre [Guide d'Évaluation des Risques dans le SDLC](/posts/2025-02-08-evaluation-risques-sdlc).
+> 📚 Pour une analyse approfondie des risques et des scénarios concrets, consultez notre [Guide d'Évaluation des Risques dans le SDLC](/posts/2025-02-08-evaluation-risques-sdlc.md).
 
-> 🛠️ Pour une liste complète des outils DevSecOps disponibles, consultez notre [Guide Complet des Outils DevSecOps](/posts/2025-02-08-outils-devsecops).
+> 🛠️ Pour une liste complète des outils DevSecOps disponibles, consultez notre [Guide Complet des Outils DevSecOps](/posts/2025-02-08-outils-devsecops.md).
 
 # 📊 **Guide d'interprétation du Gap Analysis**
 
@@ -211,7 +211,7 @@ Le rapport généré en bas de page vous fournit trois informations cruciales :
    - Poids 2 : Important - À planifier rapidement
    - Poids 1 : Recommandé - À considérer dans un second temps
 
-> 📚 **Pour des recommandations détaillées et un guide complet d'implémentation, consultez notre [Guide Détaillé et Recommandations DevSecOps](/posts/2025-02-08-guide-detaille-securite-devsecops)**
+> 📚 **Pour des recommandations détaillées et un guide complet d'implémentation, consultez notre [Guide Détaillé et Recommandations DevSecOps](/posts/2025-02-08-guide-detaille-securite-devsecops.md)**
 
 ## 🎯 **Guide d'Implémentation par Niveau de Priorité**
 

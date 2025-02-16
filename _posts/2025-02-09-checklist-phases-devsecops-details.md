@@ -11,7 +11,7 @@ published: true
 
 > Ce guide fournit des descriptions détaillées et des recommandations d'outils pour chaque point de la checklist DevSecOps.
 >
-> ✅ **[Accéder à la checklist interactive](/posts/2025-02-09-checklist-phases-devsecops) pour évaluer votre maturité DevSecOps.**
+> ✅ **[Accéder à la checklist interactive](/posts/2025-02-09-checklist-phases-devsecops.md) pour évaluer votre maturité DevSecOps.**
 
 ## 1️⃣ **Phase de Planification**
 
