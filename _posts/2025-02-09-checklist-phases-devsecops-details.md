@@ -4,7 +4,7 @@ title: Guide Détaillé des Points de Contrôle DevSecOps
 date: 2025-02-09
 categories: [Security, DevSecOps]
 tags: [security, devsecops, checklist, details]
-published: true
+published: false
 ---
 
 # 📚 **Guide Détaillé des Points de Contrôle DevSecOps**

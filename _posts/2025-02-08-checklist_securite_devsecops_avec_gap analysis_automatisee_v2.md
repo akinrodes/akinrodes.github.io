@@ -4,7 +4,7 @@ title: "Checklist Sécurité DevSecOps avec Gap Analysis Automatisée v2"
 date: 2025-02-08
 categories: [Devsecops,sécurité]
 tags: [devsecops,sécurité]     # TAG names should always be lowercase
-published: true
+published: false
 ---
 
 ---

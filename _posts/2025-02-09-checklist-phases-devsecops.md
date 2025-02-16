@@ -4,7 +4,7 @@ title: Checklist DevSecOps par Phase du Cycle de Vie
 date: 2025-02-09
 categories: [Security, DevSecOps]
 tags: [security, devsecops, checklist, lifecycle]
-published: true
+published: false
 ---
 
 # **Guide d'Utilisation de la Checklist**

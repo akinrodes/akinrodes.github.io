@@ -4,7 +4,7 @@ title: "Checklist Sécurité DevSecOps avec Gap Analysis Automatisée v3"
 date: 2025-02-08
 categories: [Devsecops,sécurité]
 tags: [devsecops,sécurité]
-published: true
+published: false
 ---
 
 # 📚 **Guide d'Utilisation de la Checklist**

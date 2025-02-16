@@ -4,7 +4,7 @@ title: Évaluation des Risques dans le SDLC - Guide Détaillé
 date: 2025-02-08
 categories: [Security, DevSecOps]
 tags: [security, devsecops, risk-assessment, sdlc]
-published: true
+published: false
 ---
 
 # 🎯 **Évaluation des Risques dans le SDLC**

@@ -4,7 +4,7 @@ title: Guide Détaillé et Recommandations DevSecOps
 date: 2025-02-08
 categories: [Security, DevSecOps]
 tags: [security, devsecops, guide, recommendations]
-published: true
+published: false
 ---
 
 # 🎓 **Guide Détaillé et Recommandations**
