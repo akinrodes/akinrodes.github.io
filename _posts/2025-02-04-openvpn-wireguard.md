@@ -42,7 +42,7 @@ Si **pas d’IP fixe**, il faut utiliser un **DNS Dynamique** (DynDNS ou No-IP) 
 La Freebox permet d’activer **un serveur VPN OpenVPN**, qui peut être en **Mode Routé** (plus stable) ou **Mode Bridgé** (connexion complète au réseau local).  
 
 ### 🛠️ Étape 1 : Activer OpenVPN sur la Freebox  
-1. Connecte-toi à **[http://mafreebox.freebox.fr](http://mafreebox.freebox.fr)**.  
+1. Connecte-toi à **[https://mafreebox.freebox.fr](https://mafreebox.freebox.fr)**.  
 2. Va dans **Paramètres avancés > VPN > Serveur VPN**.  
 3. Active **OpenVPN** et choisis un mode :  
    - **Mode Routé** (recommandé)  
@@ -74,7 +74,7 @@ La Freebox permet d’activer **un serveur VPN OpenVPN**, qui peut être en **Mo
 ## 🔥 4. Configurer WireGuard sur la Freebox (Alternative plus simple)  
 
 ### 🛠️ Étape 1 : Activer le serveur WireGuard sur la Freebox  
-1. Connecte-toi à **[http://mafreebox.freebox.fr](http://mafreebox.freebox.fr)**.  
+1. Connecte-toi à **[https://mafreebox.freebox.fr](https://mafreebox.freebox.fr)**.  
 2. Va dans **Paramètres avancés > VPN > WireGuard**.  
 3. Active **WireGuard** et configure :  
    - **Adresse du serveur** : `10.7.0.1/24`  
