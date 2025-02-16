@@ -15,7 +15,7 @@ Ce guide explique comment configurer un **VPN sur une Freebox** et y accéder de
 
 ## 🚀 1. Configuration d’un DNS Dynamique (No-IP)  
 
-Si ton père n’a **pas d’IP fixe**, il faut utiliser un **DNS Dynamique** (DynDNS ou No-IP) pour toujours retrouver la Freebox sur Internet.  
+Si **pas d’IP fixe**, il faut utiliser un **DNS Dynamique** (DynDNS ou No-IP) pour toujours retrouver la Freebox sur Internet.  
 
 ### 🛠️ Étape 1 : Créer un compte No-IP  
 1. Va sur **[https://www.noip.com/](https://www.noip.com/)** et crée un compte.  
@@ -26,7 +26,7 @@ Si ton père n’a **pas d’IP fixe**, il faut utiliser un **DNS Dynamique** (D
 3. Valide et enregistre.  
 
 ### 🛠️ Étape 2 : Configurer le DNS Dynamique sur la Freebox  
-1. Connecte-toi à **[http://mafreebox.freebox.fr](http://mafreebox.freebox.fr)**.  
+1. Connecte-toi à **[https://mafreebox.freebox.fr](https://mafreebox.freebox.fr)**.  
 2. Va dans **Paramètres avancés > DNS Dynamique**.  
 3. Clique sur **Ajouter un service** et remplis :  
    - **Service** : `No-IP`  
@@ -100,7 +100,7 @@ La Freebox permet d’activer **un serveur VPN OpenVPN**, qui peut être en **Mo
 
 ## 🎯 6. Accéder au PC de bureau en France à distance  
 
-Si tu veux accéder au **PC de ton père en France**, tu peux utiliser **Bureau à distance (RDP) ou VNC** une fois connecté au VPN.  
+Si tu veux accéder au **PC de ton bureau en France**, tu peux utiliser **Bureau à distance (RDP) ou VNC** une fois connecté au VPN.  
 
 ### 🔹 **Bureau à distance (Windows RDP)**  
 1. Active **Bureau à distance** sur le PC en France (`mstsc.exe`).  
